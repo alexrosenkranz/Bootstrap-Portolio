@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300i,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 1.7em;
+  background: #f7f7f7;
+  padding-top: 150px;
+  color: #3a3a3a;
+  line-height: 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.2em;
+}
+.blue {
+  color: #639099;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.blue:hover {
+  background: #639099;
+  color: #f7f7f7;
+}
+
+.green {
+  color: #6EE8A8
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pink {
+  color: #ED7876;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pink:hover {
+  color: #f7f7f7;
+  background: #ed7876;
+}
+
+
+nav {
+  margin-top: 50px;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Lato', sans-serif;  
+  font-size: 40px;
+  color: #3a3a3a;
+}
+
+.navbar-default .navbar-brand .strong {
+  font-weight: 900;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+.nav>li>a {
+  font-size: 20px;
+}
+
+h1.title{
+  font-size: 80px;
+  font-weight: 900;
+
+}
+
+.divide {
+  width: 28%;
+  margin: 28px 0 29px 0;
+  line-height: 0;
+  border-bottom: 2px solid #3a3a3a;
+  display: block;
+}
