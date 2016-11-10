@@ -19,6 +19,14 @@ iframe {
   width: 100%;
 }
 
+a {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
 .blue {
   color: #639099;
   -webkit-transition: 0.5s ease-in-out;
@@ -99,7 +107,7 @@ nav {
 
 
 h1.title{
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 900;
 }
 
