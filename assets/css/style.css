@@ -287,9 +287,10 @@ footer {
     text-align:center;
   }
   .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 45px;
+    margin-top: 20px;
   }
   .navbar-text {
     float: none;
