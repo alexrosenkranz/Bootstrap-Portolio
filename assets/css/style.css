@@ -261,7 +261,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   nav {
     padding-top: 20px;
   }
