@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Alex Rosenkranz's Bootstrap Porfolio</title>
+  <title>Alex Rosenkranz's >> Web Developer</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -68,6 +69,13 @@
   </div>
   <!-- PORTFOLIO ITEM -->
   <div class="row no-gutters">
+    <div class="col-xs-6 col-sm-6 col-md-3">
+      <a href="https://gargantuanfm.herokuapp.com" target="_blank" class="portfolio-item">
+        <img src="assets/images/gargantuan_portfolio.jpg" alt="Gargantuan.FM"/>
+        <div class="portfolio-title poorcat">Gargantuan<br>FM</div>
+      </a>
+    </div>
+    <!--  -->
     <div class="col-xs-6 col-sm-6 col-md-3">
       <a href="https://poorcatdesigns.com" target="_blank" class="portfolio-item">
         <img src="assets/images/pc_logo.jpg" alt="Poor Cat Designs"/>
@@ -204,6 +212,22 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+  $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 200)
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
