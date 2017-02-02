@@ -1,2 +1,2 @@
-# Bootstrap-Portolio
+# Bootstrap Portolio
 Portfolio site using Bootstrap framework. 
