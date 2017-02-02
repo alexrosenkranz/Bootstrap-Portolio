@@ -184,6 +184,7 @@ nav {
     padding-right: 0;
     padding-left: 0;
     cursor: pointer;
+    overflow: hidden;
 }
 
 a.portfolio-item img {
@@ -221,28 +222,14 @@ a.portfolio-item .portfolio-title {
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
-    border-top: 4px solid;
+    border-top: 4px solid #ED7876;
+    transform: translateX(115%);
 }
 
 a.portfolio-item:hover .portfolio-title {
     opacity: 1;
+    transform: translateX(0);
 }
-
-
-/*.poorcat,
-.jenks {
-    padding-top: 34%;
-}
-
-.wjd,
-.kap,
-.gps {
-    padding-top: 27%;
-}
-
-.goldtinker {
-    padding-top: 42%;
-}*/
 
 
 /* MODAL STYLES */
@@ -321,7 +308,8 @@ h3.project-header {
 footer {
     padding: 50px 0;
     text-align: center;
-    background: #eeeeee;
+    background: #639099;
+    color: #fff;
     border-top: 6px solid #639099;
     box-shadow: 0 0 100px 1px #639099;
     -webkit-box-shadow: 0 0 100px 1px #639099;
